@@ -26,7 +26,7 @@ cadquery-template
 1. **リポジトリをクローンする**
 
    ```bash
-   git clone https://github.com/yourusername/cadquery-template.git
+   git clone https://github.com/hrsano645/cadquery-template.git
    cd cadquery-template
    ```
 
