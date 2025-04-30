@@ -19,6 +19,30 @@ cadquery-template
 └── README.md             # プロジェクトドキュメント
 ```
 
+## Copierテンプレートとして使用する
+
+このリポジトリは `copier` のテンプレートとしても利用できます。`copier` を使うと、対話的に設定値を入力しながら新しいプロジェクトを生成できます。
+
+1. **Copierをインストールする** (まだインストールしていない場合)
+
+   `pipx` を使用して `copier` をインストールすることをお勧めします。
+
+   ```bash
+   pipx install copier
+   ```
+
+2. **テンプレートからプロジェクトを生成する**
+
+   次のコマンドを実行し、指示に従ってプロジェクト名などを設定します。
+
+   ```bash
+   copier copy gh:hrsano645/cadquery-template <your-new-project-path>
+   ```
+
+   `<your-new-project-path>` を新しいプロジェクトを作成したいディレクトリパスに置き換えてください。
+
+---
+
 ## はじめに
 
 このCadQueryテンプレートを開始するには、次の手順に従います。
