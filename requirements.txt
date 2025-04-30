@@ -1,0 +1,8 @@
+CadQuery
+numpy
+scipy
+matplotlib
+jupyter
+ipython
+pyqt5
+pyqtgraph

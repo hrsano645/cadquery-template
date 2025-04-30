@@ -1,0 +1,29 @@
+# This file defines the Copier template configuration for the CadQuery project.
+
+# Template configuration for Copier
+# This file specifies the structure and variables for the project template.
+
+# Define the template structure
+project_name: cadquery-template
+version: 1.0.0
+
+# Define any variables that can be customized
+variables:
+  project_name: "CadQuery Project"
+  author: "Your Name"
+  email: "your.email@example.com"
+
+# Define the files and directories to include in the template
+files:
+  - src/main.py
+  - .devcontainer/devcontainer.json
+  - .vscode/extensions.json
+  - .vscode/settings.json
+  - Dockerfile
+  - requirements.txt
+  - README.md
+
+# Define any additional configuration options
+options:
+  overwrite: true
+  skip_if_exists: false
